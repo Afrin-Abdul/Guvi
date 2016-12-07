@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+	// your code goes here
+   char s[20]="reverse";
+   int i,j,len;
+  // printf("\n enter the string");
+   //scanf("%s",s);
+   len=strlen(s);
+   for(j=len-1;j>=0;j--)
+   printf("%c",s[j]);
+	return 0;
+}
